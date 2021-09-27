@@ -1,0 +1,93 @@
+/*
+Theme Name: childe02
+
+Author: KEN
+
+Description:
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: mtst-text-domain
+*/
+.mtst-header {
+  background-color: black;
+  height: 120px;
+  position: relative;
+}
+.mtst-logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.theme-color {
+  width: 50px;
+  height: 30px;
+}
+
+form#contact {
+  border:1px solid #e5e5e5;
+  padding:10px;
+  background:#e9ffd0;
+  border-radius:5px;
+}
+#contact label {
+  font-size: 14px;
+}
+#contact input:required:valid {
+  box-shadow: 0 0 3px #BCEF89;
+  border-color: #BCEF89!important;
+}
+
+#contact input:focus:invalid {
+  box-shadow: 0 0 3px #FFDF97;
+  border-color: #FFDF97!important;
+}
+#contact textarea:focus:invalid {
+  box-shadow: 0 0 3px #FFDF97;
+  border-color: #FFDF97!important;
+}
+.err {
+  border: 1px solid #ff8c00;
+  padding: 10px;
+  background: #FFDF97;
+  text-align: left;
+  border-radius: 3px;
+}
+.ok {
+  border: 1px #BCEF89 solid;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f5f9fd;
+  text-align: center;
+  border-radius: 3px;
+}
+#price, #email, #name, #title, #textarea {
+  width: 30%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+
+#submit {
+  font-weight: 400;
+  background: #393;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+}
+.custom-menu-class ul {
+    margin:20px 0px 20px 0px;
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+    text-align:right;
+}
+.custom-menu-class li {
+    padding: 0px 20px 0px 0px;
+    display: inline;
+} 
+.custom-menu-class a { 
+    color:#FFFFFF;
+}
